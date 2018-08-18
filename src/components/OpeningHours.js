@@ -14,7 +14,7 @@ const OpeningHours = () => (
           <p className="subtitle big invert">onsdag: 09:30–18:30</p>
           <p className="subtitle big invert">tordag: 09:30–18:30</p>
           <p className="subtitle big invert">fredag: 09:30–18:30</p>
-          <p className="subtitle big invert">lørdag: 09:30–18:30</p>
+          <p className="subtitle big invert">lørdag: 09:30–16:30</p>
           <p className="subtitle big invert">søndag: Stengt</p>
           <div className="voffset60" />
         </div>

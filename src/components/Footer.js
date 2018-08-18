@@ -1,6 +1,4 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
-
 import logoGold from "../assets/images/logo_gold.png";
 
 const Footer = () => (
@@ -22,7 +20,7 @@ const Footer = () => (
             <li><a href="#home">Hjem</a></li>
             <li><a href="#introducing">Om oss</a></li>
             <li><a href="#key-features">Priser</a></li>
-            <li><a href="#portfolio">Galleri</a></li>
+            {/* <li><a href="#portfolio">Galleri</a></li> */}
             <li><a href="#contact">Kontakt</a></li>
           </ul>
         </div>
@@ -31,9 +29,9 @@ const Footer = () => (
           <h5 className="title-small cp">Kontakt oss</h5>
           <div className="voffset20" />
           <div id="contact-us">
-            <p className="contact-link fa fa-envelope-o">info@murdock.com</p>
-            <p className="contact-link fa fa-mobile">1.800.321.4789</p>
-            <p className="contact-link fa fa-map-marker">San Francisco Office <br /> 425 2nd St, Suite 100, <br /> CA 94107</p>
+            <p className="contact-link fa fa-envelope-o">teie_barbershop@hotmail.com</p>
+            <p className="contact-link fa fa-mobile">+47-412-62-843</p>
+            <p className="contact-link fa fa-map-marker">Smidsrødveien, 9 <br/>3120, Nøtterøy</p>
           </div>
         </div>
       </div>

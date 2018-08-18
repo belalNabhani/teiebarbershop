@@ -2221,12 +2221,10 @@ footer form.contact-form input[type=submit] {
 
 #mask {
   background-color: #000;
-  visibility: hidden;
   height: 100%;
   position: fixed;
   width: 100%;
   z-index: 100000;
-  transition: visibility 0s 3s;
 }
 
 .sk-circle {

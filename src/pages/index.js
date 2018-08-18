@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
-
 import "../assets/css/main.css";
 import "../assets/css/vendor.css";
 
@@ -12,16 +10,15 @@ import Gallery from "../components/Gallery";
 import OpeningHours from "../components/OpeningHours";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-// import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <div className="loaded">
     <Header />
     <Banner />
     <About />
-    <OpeningHours />
-    <Gallery />
     <Prices />
+    <OpeningHours />
+    {/* <Gallery /> */}
     <Contact />
     <Footer />
   </div>

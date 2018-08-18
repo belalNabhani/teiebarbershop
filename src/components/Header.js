@@ -22,9 +22,9 @@ class Header extends React.Component {
           <div id="navbar-murdock" className="collapse navbar-collapse navbar-ex1-collapse">
             <ul className="nav navbar-nav navbar-right invert">
               <li className="active"><a href="#home">hjem</a></li>
-              <li><a href="#introducing">Om oss</a></li>
               <li><a href="#key-features">Priser</a></li>
-              <li><a href="#portfolio">Galleri</a></li>
+              <li><a href="#introducing">Om oss</a></li>
+              {/* <li><a href="#portfolio">Galleri</a></li> */}
               <li><a href="#contact">Kontakt</a></li>
             </ul>
           </div>
