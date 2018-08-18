@@ -2,16 +2,16 @@ import React, { Component } from 'react'
 import Lightbox from 'react-images'
 import styled from 'styled-components'
 
-import gallery1 from '../assets/images/gallery/gallery1.jpg';
-import gallery2 from '../assets/images/gallery/gallery2.jpg';
-import gallery3 from '../assets/images/gallery/gallery3.jpg';
-import gallery4 from '../assets/images/gallery/gallery4.jpg';
-import gallery5 from '../assets/images/gallery/gallery5.jpg';
-import gallery6 from '../assets/images/gallery/gallery6.jpg';
-import gallery7 from '../assets/images/gallery/gallery7.jpg';
-import gallery8 from '../assets/images/gallery/gallery8.jpg';
-import gallery9 from '../assets/images/gallery/gallery9.jpg';
-import gallery10 from '../assets/images/gallery/gallery10.jpg';
+import gallery1 from '../assets/images/gallery/gallery1.jpg'
+import gallery2 from '../assets/images/gallery/gallery2.jpg'
+import gallery3 from '../assets/images/gallery/gallery3.jpg'
+import gallery4 from '../assets/images/gallery/gallery4.jpg'
+import gallery5 from '../assets/images/gallery/gallery5.jpg'
+import gallery6 from '../assets/images/gallery/gallery6.jpg'
+import gallery7 from '../assets/images/gallery/gallery7.jpg'
+import gallery8 from '../assets/images/gallery/gallery8.jpg'
+import gallery9 from '../assets/images/gallery/gallery9.jpg'
+import gallery10 from '../assets/images/gallery/gallery10.jpg'
 
 const Img = styled(
   (p) =>
@@ -21,21 +21,21 @@ const Img = styled(
       {...p}
     />
   )`
-    border-radius: 10px;
-    cursor: pointer;
-    width: 300px;
-    margin-bottom: 20px;
-    display: inline;
-    position: relative;
-    top: 0;
-    right: 0;
-    border: 3px solid #ddd;
-    transition-duration: 0.2s;
-    box-shadow: -2px 5px 10px rgba(0,0,0, 0.45);
+    border-radius: 10px
+    cursor: pointer
+    width: 300px
+    margin-bottom: 20px
+    display: inline
+    position: relative
+    top: 0
+    right: 0
+    border: 3px solid #ddd
+    transition-duration: 0.2s
+    box-shadow: -2px 5px 10px rgba(0,0,0, 0.45)
     &:hover{
-      box-shadow: -2px 10px 25px rgba(0,0,0, 0.45);
-      top: -1px;
-      right: 0;
+      box-shadow: -2px 10px 25px rgba(0,0,0, 0.45)
+      top: -1px
+      right: 0
     }
   `
 
@@ -140,6 +140,6 @@ export default class Gallery extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
