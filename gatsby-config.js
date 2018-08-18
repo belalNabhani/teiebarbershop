@@ -14,12 +14,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`librebaskerville`, `open sans`]
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
