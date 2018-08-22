@@ -18,8 +18,8 @@ const IndexPage = () => (
     <About />
     <Prices />
     <OpeningHours />
-    {/* <Gallery /> */}
     <Contact />
+    {/* <Gallery /> */}
     <Footer />
   </div>
 );

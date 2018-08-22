@@ -11,19 +11,7 @@ const Contact = () => (
           </div>
         </div>
         <div className="col-md-6">
-          <div className="contact-basic">
-            <div className="voffset400" />
-            <div className="vcenter text-center">
-              <p className="pretitle">phone</p>
-              <div className="voffset20" />
-              <p><a href="tel:+47-412-62-843">+47-412-62-843</a></p>
-              <div className="voffset50" />
-              <p className="pretitle">email</p>
-              <div className="voffset20" />
-              <p><a href="mailto:hello@murdockdigital.com" className="mailto"> teie_barbershop@hotmail.com</a></p>
-            </div>
-          </div>
-          <div className="contact-form bg-cream">
+        <div className="contact-form">
             <div className="voffset400" />
             <div className="vcenter text-center">
               <div className="voffset40" />
@@ -34,6 +22,17 @@ const Contact = () => (
               </ul>
             </div>
           </div>
+          <div className="contact-basic">
+            <div className="voffset60" />
+            <div className="vcenter text-center">
+              <div className="voffset20" />
+              <a href="tel:+47-412-62-843"><p className="map-contact fa fa-mobile"></p><p>+47-412-62-843</p></a>
+              <div className="voffset50" />
+              <div className="voffset20" />
+              <a href="mailto:hello@murdockdigital.com" className="mailto"><p className="map-contact fa fa-envelope"></p><p>teie_barbershop@hotmail.com</p></a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

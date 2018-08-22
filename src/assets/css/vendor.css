@@ -2376,7 +2376,7 @@ th {
 }
 
 .table {
-  width: 100%;
+  /* width: 100%; */
   margin-bottom: 20px;
 }
 
@@ -2386,10 +2386,10 @@ th {
 .table>thead>tr>td,
 .table>tbody>tr>td,
 .table>tfoot>tr>td {
-  padding: 8px;
+  padding: 8px 2px 8px 2px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
 }
 
 .table>thead>tr>th {

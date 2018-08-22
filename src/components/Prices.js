@@ -7,11 +7,10 @@ const Prices = () => (
       <div className="container">
         <div className="row visible">
           <div className="col-md-8 col-md-offset-2">
-            <div className="voffset110" />
-            <p className="pretitle invert">Spesifikasjoner</p>
+            <div className="voffset70" />
             <h1 className="title invert">Tjenester &amp; Priser</h1>
             <p className="subtitle colored">Vi tilbyr et bredt av ulike tjenester. Få klassisk hårklipp og skjegg trim.</p>
-            <div className="voffset110" />
+            <div className="voffset90" />
           </div>
         </div>
       </div>

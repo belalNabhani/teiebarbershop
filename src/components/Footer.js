@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
     <div className="copyright">
       <div className="voffset40" />
-      <p>copyright 2018 Teie Barber Shop AS. all rights reserved. Utviklet av WEBSTACK AS</p>
+      <p>copyright 2018 Teie Barber Shop AS. all rights reserved. Utviklet av <strong className="colored">WEBSTACK AS</strong></p>
       <div className="voffset40" />
     </div>
   </footer>

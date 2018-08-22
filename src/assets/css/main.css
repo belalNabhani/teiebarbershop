@@ -249,7 +249,7 @@ textarea {
 .vcenter {
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
@@ -2029,9 +2029,14 @@ footer form.contact-form input[type=submit] {
   font-size: 20px;
 }
 
-.contact-link.fa-mobile:before {
-  left: -35px;
-  font-size: 29px;
+.map-contact.fa-mobile:before {
+  font-size: 52px;
+  color: #9FA1A5;
+}
+.map-contact.fa-envelope:before {
+  font-size: 52px;
+  color: #9FA1A5;
+
 }
 
 /*------------------------------------------------------------------
@@ -2111,7 +2116,7 @@ footer form.contact-form input[type=submit] {
 
 @media (min-width: 768px) {
   .intro .text-overlay {
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
   .nomenu .intro .text-overlay {
     padding-top: 0;
@@ -8558,7 +8563,7 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
 }
 #banner-background {
   min-height: 100vh;
-  background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .4) ), url('../images/rsz_1background.jpg');
+  background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .4) ), url('../images/banner.jpg');
   position: relative;
   background-position: center;
   background-size: cover;
@@ -8590,4 +8595,10 @@ body.dark .thumbnails.work5 .thumbnail:hover .rollover {
 }
 #contact-us p {
   margin-bottom: 20px;
+}
+td.left {
+  text-align: left;
+}
+table.center {
+  margin: 0 auto;
 }
