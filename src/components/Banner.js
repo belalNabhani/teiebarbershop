@@ -34,7 +34,7 @@ class Banner extends React.Component {
           </div>
           <div className="vcenter text-center text-overlay">
               <div className="item">
-                <img id="teie-title" src={title}/>
+                <img id="teie-title" src={title} width="43%"/>
               </div>
           </div>
         </div>
