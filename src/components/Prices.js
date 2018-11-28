@@ -36,6 +36,7 @@ const Prices = () => (
               <h4 className="titlefeat">Skjegg Trim/Forming</h4>
               <div className="voffset30" />
               <p className="textfeat">Få et komplett skjegg trim og gi det en ren, naturlig stil.<br/>250 kr</p>
+              <p>Hot towel shave 350 kr</p>
             </div>
           </div>
           <div className="col-sm-4">
@@ -45,7 +46,8 @@ const Prices = () => (
               <div className="voffset40" />
               <h4 className="titlefeat">Shave</h4>
               <div className="voffset30" />
-              <p className="textfeat">For best resultat kombinerer vi moderne og tradisjonelle metoder.<br/>150 kr</p>
+              <p className="textfeat">For best resultat kombinerer vi moderne og tradisjonelle metoder.<br/>250 kr</p>
+              <p>Hot towel shave 350 kr</p>
             </div>
           </div>
         </div>
@@ -69,6 +71,7 @@ const Prices = () => (
               <h4 className="titlefeat">Behandlig</h4>
               <div className="voffset30" />
               <p className="textfeat">Vi kan fjerne hår som plager deg i ansiktet og øre med vax eller tråd.</p>
+              <p>Pris fra 75 kr</p>
             </div>
           </div>
           <div className="col-sm-4">
@@ -78,7 +81,9 @@ const Prices = () => (
               <div className="voffset40" />
               <h4 className="titlefeat">Barnklipp</h4>
               <div className="voffset30" />
-              <p className="textfeat">Elder fra 5 år til 12 år<br/>250 kr</p>
+              <p className="textfeat">Elder fra 5 år til 10 år<br/>250 kr</p>
+              <p>Fra 11 til 15 år</p>
+              <p>300 kr</p>
             </div>
           </div>
         </div>

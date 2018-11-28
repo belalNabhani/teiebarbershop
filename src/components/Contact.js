@@ -18,7 +18,7 @@ const Contact = () => (
               <p className="pretitle">Kontakt oss</p>
               <ul className="social-links">
                 <li><a href="https://www.facebook.com/Teie-Barber-Shop-200102630800945/" target="_blank"><i className="fa fa-facebook" /></a></li>
-                <li><a href="https://www.instagram.com/p/Bmbrga3l3YM" target="_blank"><i className="fa fa-instagram" /></a></li>
+                <li><a href="https://www.instagram.com/teie_barbershop/" target="_blank"><i className="fa fa-instagram" /></a></li>
               </ul>
             </div>
           </div>
