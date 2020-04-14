@@ -75,7 +75,7 @@ const Prices = () => (
                 <div className="voffset40" />
                 <h4 className="titlefeat">Gavekort</h4>
                 <div className="voffset30" />
-                <p className="textfeat">Du kan kjøpe Gavekort og velge behandlingen til</p>
+                <p className="textfeat">Du kan kjøpe Gavekort og velge behandlingen</p>
                 <br/>
                 <br/>
                 <br/>
