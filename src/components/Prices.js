@@ -28,9 +28,9 @@ const Prices = () => (
                 <div className="voffset30" />
                 <p className="textfeat">Velg den beste stilen for hodeformen, og vi vil gi deg den perfekte klipp til å bli lagt merke til.</p>
                 <br/>
-                <p>Hårklipp: 425 kr</p>
+                <p>Hårklipp: 450 kr</p>
                 <p>Maskinklip(Hele hodet uten form): 300 kr</p>
-                <p>Hårklipp + Skjegg: 775 kr </p>
+                <p>Hårklipp + Skjegg: 800 kr </p>
               </div>
             </div>
             <div className="col-sm-4">
