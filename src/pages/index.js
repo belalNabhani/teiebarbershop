@@ -16,7 +16,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" lang="No-nb" />
+    <Seo title="Teie barbershop" lang="No-nb" />
     <div className="loaded">
       <Header />
       <Banner />

@@ -33,8 +33,8 @@ class Header extends React.Component {
               role="button"
               tabIndex="0"
               className={`${styles.menu} ${this.state.open ? `${styles.open}` : ""}`}
-              onClick={() => this.close()}
-              onKeyDown={() => this.close()}
+              onClick={this.close}
+              onKeyDown={this.close}
             >
               <ul className="nav navbar-nav navbar-right invert">
                 <li className="active"><a href="#home">hjem</a></li>
