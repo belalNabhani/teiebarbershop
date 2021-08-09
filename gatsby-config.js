@@ -5,6 +5,7 @@ module.exports = {
     description: "De beste barbershop i Tønsberg",
     website: "https://www.teiebarbershop.no/"
   },
+  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
